@@ -24,7 +24,7 @@
   <text x="24" y="46" class="place">Totnes</text>
   <rect x="25" y="56" width="72" height="5" rx="2.5" fill="#BF0000"/>
   <text x="776" y="38" text-anchor="end" class="date">Thursday 9 July</text>
-  <text x="776" y="56" text-anchor="end" class="updated">Updated 10:35</text>
+  <text x="776" y="56" text-anchor="end" class="updated">Updated 10:44</text>
 
   <!-- ================= Panels ================= -->
   <rect x="24" y="76" width="250" height="380" rx="22" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
