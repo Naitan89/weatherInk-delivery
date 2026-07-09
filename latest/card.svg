@@ -24,7 +24,7 @@
   <text x="24" y="46" class="place">Totnes</text>
   <rect x="25" y="56" width="72" height="5" rx="2.5" fill="#BF0000"/>
   <text x="776" y="38" text-anchor="end" class="date">Thursday 9 July</text>
-  <text x="776" y="56" text-anchor="end" class="updated">Updated 10:44</text>
+  <text x="776" y="56" text-anchor="end" class="updated">Updated 11:12</text>
 
   <!-- ================= Panels ================= -->
   <rect x="24" y="76" width="250" height="380" rx="22" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
@@ -33,9 +33,9 @@
 
   <!-- ================= Left panel: current + stats ================= -->
   <g transform="translate(200.0 88.0) scale(0.6400)"><line x1="74.0" y1="50.0" x2="83.0" y2="50.0" stroke="#000000" stroke-width="5" stroke-linecap="round"/><line x1="67.0" y1="67.0" x2="73.3" y2="73.3" stroke="#000000" stroke-width="5" stroke-linecap="round"/><line x1="50.0" y1="74.0" x2="50.0" y2="83.0" stroke="#000000" stroke-width="5" stroke-linecap="round"/><line x1="33.0" y1="67.0" x2="26.7" y2="73.3" stroke="#000000" stroke-width="5" stroke-linecap="round"/><line x1="26.0" y1="50.0" x2="17.0" y2="50.0" stroke="#000000" stroke-width="5" stroke-linecap="round"/><line x1="33.0" y1="33.0" x2="26.7" y2="26.7" stroke="#000000" stroke-width="5" stroke-linecap="round"/><line x1="50.0" y1="26.0" x2="50.0" y2="17.0" stroke="#000000" stroke-width="5" stroke-linecap="round"/><line x1="67.0" y1="33.0" x2="73.3" y2="26.7" stroke="#000000" stroke-width="5" stroke-linecap="round"/><circle cx="50" cy="50" r="18" fill="#FFFF00" stroke="black" stroke-width="3"/></g>
-  <text x="44" y="150" class="temp">25°</text>
+  <text x="44" y="150" class="temp">26°</text>
   <text x="44" y="182" class="cond">Clear</text>
-  <text x="44" y="204" class="feels">Feels 27°</text>
+  <text x="44" y="204" class="feels">Feels 28°</text>
 
   <line x1="44" y1="220" x2="254" y2="220" stroke="#9CA3AF" stroke-width="1"/>
 
@@ -44,10 +44,10 @@
   <text x="254" y="250" text-anchor="end" class="svalue">30° / 14°</text>
 
   <text x="44" y="283" class="slabel">WIND</text>
-  <text x="254" y="283" text-anchor="end" class="svalue">3 km/h SE</text>
+  <text x="254" y="283" text-anchor="end" class="svalue">4 km/h SE</text>
 
   <text x="44" y="316" class="slabel">HUMIDITY</text>
-  <text x="254" y="316" text-anchor="end" class="svalue">55%</text>
+  <text x="254" y="316" text-anchor="end" class="svalue">50%</text>
 
   <text x="44" y="349" class="slabel">SUNRISE</text>
   <text x="254" y="349" text-anchor="end" class="svalue">05:14</text>
