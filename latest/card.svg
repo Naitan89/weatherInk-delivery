@@ -23,8 +23,8 @@
   <!-- ================= Header ================= -->
   <text x="24" y="46" class="place">Totnes</text>
   <rect x="25" y="56" width="72" height="5" rx="2.5" fill="#BF0000"/>
-  <text x="776" y="38" text-anchor="end" class="date">Wednesday 8 July</text>
-  <text x="776" y="56" text-anchor="end" class="updated">Updated 00:58</text>
+  <text x="776" y="38" text-anchor="end" class="date">Thursday 9 July</text>
+  <text x="776" y="56" text-anchor="end" class="updated">Updated 01:03</text>
 
   <!-- ================= Panels ================= -->
   <rect x="24" y="76" width="250" height="380" rx="22" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
@@ -33,7 +33,7 @@
 
   <!-- ================= Left panel: current + stats ================= -->
   <g transform="translate(200.0 88.0) scale(0.6400)"><circle cx="50" cy="50" r="30" fill="#FFFF00" stroke="black" stroke-width="4"/><circle cx="65.6" cy="38.0" r="31.5" fill="#FFFFFF"/><path d="M 79.4 24.8 L 81.6 30.4 L 87.2 32.6 L 81.6 34.8 L 79.4 40.4 L 77.2 34.8 L 71.6 32.6 L 77.2 30.4 Z" fill="#FFFF00" stroke="black" stroke-width="1.5" stroke-linejoin="round"/><path d="M 68.0 14.3 L 69.4 18.0 L 73.1 19.4 L 69.4 20.8 L 68.0 24.5 L 66.6 20.8 L 62.9 19.4 L 66.6 18.0 Z" fill="#FFFF00" stroke="black" stroke-width="1.5" stroke-linejoin="round"/></g>
-  <text x="44" y="150" class="temp">18°</text>
+  <text x="44" y="150" class="temp">17°</text>
   <text x="44" y="182" class="cond">Clear</text>
   <text x="44" y="204" class="feels">Feels 19°</text>
 
@@ -47,7 +47,7 @@
   <text x="254" y="283" text-anchor="end" class="svalue">3 km/h NE</text>
 
   <text x="44" y="316" class="slabel">HUMIDITY</text>
-  <text x="254" y="316" text-anchor="end" class="svalue">89%</text>
+  <text x="254" y="316" text-anchor="end" class="svalue">90%</text>
 
   <text x="44" y="349" class="slabel">SUNRISE</text>
   <text x="254" y="349" text-anchor="end" class="svalue">05:14</text>
