@@ -2,10 +2,10 @@
   "place": "Totnes",
   "timezone": "Europe/London",
   "forecastTime": "2026-10-12T22:30",
-  "generatedAt": "2026-10-12T21:32:27.552Z",
+  "generatedAt": "2026-10-12T21:32:47.012Z",
   "sample": false,
   "tideStation": "Dartmouth",
   "tideAvailable": true,
   "healthAvailable": true,
-  "healthFresh": false
+  "healthFresh": true
 }
