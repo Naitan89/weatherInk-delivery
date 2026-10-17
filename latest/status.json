@@ -1,11 +1,17 @@
 {
   "place": "Totnes",
   "timezone": "Europe/London",
-  "forecastTime": "2026-10-17T11:15",
-  "generatedAt": "2026-10-17T10:28:00.687Z",
+  "forecastTime": "2026-10-17T12:15",
+  "generatedAt": "2026-10-17T11:21:41.187Z",
   "sample": false,
   "tideStation": "Dartmouth",
   "tideAvailable": true,
   "healthAvailable": false,
-  "healthFresh": false
+  "healthFresh": false,
+  "echo": {
+    "id": "curious",
+    "mood": "questioning",
+    "label": "Questioning head tilt"
+  },
+  "textRendering": "solid-coverage-v1"
 }

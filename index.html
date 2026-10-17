@@ -12,14 +12,14 @@
 <div class="tag">Your fitness tracker has a grievance department</div><h1>Move, you two.</h1>
 <p>Nathan vs April: steps, championship titles, goal streaks and increasingly personal feedback. Plus weather, tides and sun times.</p>
 <p id="status" role="status">Checking forecast timestamp…</p>
-<div class="frame"><img id="card" src="./latest/card.svg" alt="Health leaderboard for Nathan and April alongside weather forecasts, labelled tides and sunrise/sunset times"></div>
-<nav aria-label="Preview orientation"><button id="upright" aria-pressed="true">Upright preview</button><button id="device" aria-pressed="false">Frame pixels (rotated)</button><a href="./latest/card-photopainter.bmp" download>Download frame BMP</a></nav>
-<small>The frame image is rotated 180° for the existing mounting. This preview defaults to upright.</small>
+<div class="frame"><img id="card" style="max-width:800px;margin:auto;transform:rotate(180deg)" src="./latest/card-photopainter-preview.png" alt="Health leaderboard for Nathan and April alongside weather forecasts, labelled tides and sunrise/sunset times"></div>
+<nav aria-label="Preview mode"><button id="upright" aria-pressed="true">Actual frame pixels</button><button id="smooth" aria-pressed="false">Smooth artwork</button><button id="device" aria-pressed="false">Device orientation</button><a href="./latest/card-photopainter.bmp" download>Download frame BMP</a></nav>
+<small>The default shows the exact six-colour frame pixels upright, without enlarging them beyond 800px. Smooth artwork is a separate preview, not extra detail available on the physical panel. Device orientation is rotated 180° for the existing mounting.</small>
 <p><strong>Championship rules:</strong> More uploaded steps wins a completed UK day. Weekly titles use the total steps from a complete Monday–Sunday, with all seven days reported by both phones. Ties award no title; missing uploads are not zero. Tallies cover all recorded history and update if older scores are corrected. Today's crown is a live lead, not a settled title.</p>
 <footer><small>Weather: Open-Meteo. Tide predictions: ADMIRALTY. Dartmouth is the default tide station, not a prediction for Totnes itself. The smooth tide curve is approximate and is not for navigation.</small></footer>
 </main><script>
 const card=document.querySelector('#card');
-for(const [id,file] of [['upright','card.svg'],['device','card-photopainter-preview.png']])document.getElementById(id).addEventListener('click',()=>{card.src='./latest/'+file;for(const other of ['upright','device'])document.getElementById(other).setAttribute('aria-pressed',String(other===id));});
+for(const [id,file] of [['upright','card-photopainter-preview.png'],['smooth','card.svg'],['device','card-photopainter-preview.png']])document.getElementById(id).addEventListener('click',()=>{card.src='./latest/'+file;card.style.transform=id==='upright'?'rotate(180deg)':'none';for(const other of ['upright','smooth','device'])document.getElementById(other).setAttribute('aria-pressed',String(other===id));});
 fetch('./latest/status.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(s=>{
  const age=(Date.now()-Date.parse(s.generatedAt))/3600000;
  document.querySelector('#status').textContent=`${s.sample?'Sample data · ':''}${s.place} · Forecast ${s.forecastTime.replace('T',' ')} (${s.timezone})${s.healthAvailable ? (s.healthFresh ? " · Health synced" : " · Health needs syncing") : " · Awaiting health data"}${age>8?' · Image is over 8 hours old; check for a newer forecast.':''}`;
